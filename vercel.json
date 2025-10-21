@@ -5,22 +5,23 @@
   "env": {
     "NODE_ENV": "production"
   },
+  "functions": {
+    "api/index.ts": {
+      "runtime": "nodejs20.x"
+    }
+  },
   "routes": [
     {
       "src": "^/api/.*",
-      "dest": "/index.js"
-    },
-    {
-      "src": "^/trpc/.*",
-      "dest": "/index.js"
+      "dest": "/api"
     },
     {
       "src": "^(?!.*\\.).*$",
-      "dest": "/public/index.html"
+      "dest": "/index.html"
     },
     {
       "src": "^/(.*)$",
-      "dest": "/public/$1"
+      "dest": "/$1"
     }
   ]
 }

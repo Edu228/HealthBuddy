@@ -5,15 +5,10 @@
   "env": {
     "NODE_ENV": "production"
   },
-  "functions": {
-    "api/index.ts": {
-      "runtime": "nodejs20.x"
-    }
-  },
   "routes": [
     {
       "src": "^/api/.*",
-      "dest": "/api"
+      "dest": "/api/index.ts"
     },
     {
       "src": "^(?!.*\\.).*$",

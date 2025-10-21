@@ -1,0 +1,48 @@
+{
+  "version": "7",
+  "dialect": "mysql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1760967386188,
+      "tag": "0000_material_rage",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1760967421477,
+      "tag": "0001_ambitious_christian_walker",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1760973412387,
+      "tag": "0002_wandering_otto_octavius",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "5",
+      "when": 1760979359640,
+      "tag": "0003_exotic_blacklash",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "5",
+      "when": 1760979552469,
+      "tag": "0004_real_darkhawk",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "5",
+      "when": 1760990624734,
+      "tag": "0005_amused_nebula",
+      "breakpoints": true
+    }
+  ]
+}
